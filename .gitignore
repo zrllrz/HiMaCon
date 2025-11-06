@@ -2,3 +2,4 @@
 /libero_dataset/
 /logs/
 __pycache__/
+lightning_logs/
