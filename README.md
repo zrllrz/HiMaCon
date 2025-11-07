@@ -10,10 +10,9 @@ conda env create -f environment.yml
 conda activate himacon
 ```
 
-### Example usage on LIBERO
+### Example Usage on LIBERO
 
-- Preprocess Data: First download data following the [download instruction](https://lifelong-robot-learning.github.io/LIBERO/html/algo_data/datasets.html) from [LIBERO](https://lifelong-robot-learning.github.io/LIBERO/html/getting_started/overview.html). Then adjust `--libero_org_path` in `preprocess.sh` to the downloaded dataset path and then run:
+- Preprocess Data: First download the data following the [download instruction](https://lifelong-robot-learning.github.io/LIBERO/html/algo_data/datasets.html) from [LIBERO](https://lifelong-robot-learning.github.io/LIBERO/html/getting_started/overview.html). Then adjust `--libero_org_path` in `preprocess.sh` to the downloaded dataset path and run:
 ```
 bash preprocess.sh
 ```
-
