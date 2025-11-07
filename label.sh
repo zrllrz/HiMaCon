@@ -1,5 +1,4 @@
 cd src &&
-export CUDA_VISIBLE_DEVICES=6
 
 TIMESTAMP=2025-11-06_17-11-12
 
