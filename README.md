@@ -23,4 +23,9 @@ Parameters for `preprocess.sh`:
 - `--libero_tar_path`: Path where the preprocessed LIBERO dataset will be saved.
 - `--chunk_size`: Number of image frames to send to the encoder for preprocessing in each iteration.
 
-
+Second, modify the configuration file under the directory `train-configs` and use the following script for concept discovery training:
+```
+bash train.sh
+```
+Parameters for `train.sh`:
+- `--train-config`: Path where the configuration file is.
