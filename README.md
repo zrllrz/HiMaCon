@@ -28,4 +28,12 @@ Second, modify the configuration file under the directory `train-configs` and us
 bash train.sh
 ```
 Parameters for `train.sh`:
-- `--train_config`: Path where the configuration file is.
+- `--train_config`: Path to the configuration file.
+
+Third, use the following script for labeling the dataset:
+```
+bash label.sh
+```
+Parameters for `label.sh`:
+- `TIMESTAMP`: The checkpoints are logged using a timestamp at training time. Set this based on the log name.
+- `--disable_segment`: When used, the multi-hierarchical segmentation results will not be saved.
