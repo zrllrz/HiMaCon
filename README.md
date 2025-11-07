@@ -5,7 +5,7 @@ Repository for NeurIPS 2025 Paper **HiMaCon: Discovering Hierarchical Manipulati
 [![arXiv](https://img.shields.io/badge/arXiv-2510.11321-df2a2a.svg?style=for-the-badge)](https://arxiv.org/abs/2510.11321)
 
 ---
-###  Installation & Setu
+###  Installation & Setup
 ```
 conda env create -f environment.yml
 conda activate himacon
