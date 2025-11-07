@@ -1,13 +1,12 @@
-
-# export HF_HOME=/path/to/your/custom/cache
-
 cd preprocess &&
 
 export HF_HOME=../huggingface
-export CUDA_VISIBLE_DEVICES="6"
+
+# Set the parent path where LIBERO is located
+YOUR_LIBERO_PARENT_PATH=
 
 python libero.py \
-    --libero_org_path /group/ycyang/rzliu/LIBERO/libero/datasets/libero/libero_10 \
+    --libero_org_path $YOUR_LIBERO_PARENT_PATH/LIBERO/libero/datasets/libero/libero_10 \
     --libero_tar_path ../libero_dataset \
     --chunk_size 64
 
