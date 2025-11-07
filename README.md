@@ -28,4 +28,4 @@ Second, modify the configuration file under the directory `train-configs` and us
 bash train.sh
 ```
 Parameters for `train.sh`:
-- `--train-config`: Path where the configuration file is.
+- `--train_config`: Path where the configuration file is.
